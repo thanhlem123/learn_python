@@ -1,0 +1,10 @@
+# dùng dấu " ' kí tự ngắn
+a = "tôi là thành"
+print(a)
+print(type(a))
+# dùng dấu ''' và """ để thực hiện chuỗi kí tự dài
+b = """ tôi là thành\n hiện đang làm việc tại nhà máy\nsamsung display vietnam """
+print(b)
+
+print('\a')
+print('toi\tla\tthanh')

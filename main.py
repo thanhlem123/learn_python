@@ -1,16 +1,15 @@
-# This is a sample Python script.
+ten,tuoi,nghenghiep = "thanh",22,"technician"
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print(type(ten))
+print(type(tuoi))
+print(type(nghenghiep))
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+#bai 6: kiểu số trong PYTHON
+# lấy toàn bộ thư viện decimal
+# từ thư viện decimal-> import vào mọi thứ(*) vào
+from decimal import*
+# lấy 3 số thập phân Decimal và phần nguyên
+getcontext().prec = 3
+print(Decimal(10)/3)
+d = Decimal(10)/3
+print(d)
