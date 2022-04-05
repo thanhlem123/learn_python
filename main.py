@@ -13,3 +13,8 @@ getcontext().prec = 3
 print(Decimal(10)/3)
 d = Decimal(10)/3
 print(d)
+
+
+
+
+

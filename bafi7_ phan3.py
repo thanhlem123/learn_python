@@ -9,7 +9,7 @@ d = '%.0f' %(3.5312391) # lấy 3 số ở phần thực. làm tròn lên khi ph
 print(d)
 tên = 'thanh' # tác dụng của f trong Python là thay thế
 tuoi = '22'
-result =  f'hc sinh:{tên}\nage{tuoi}'
+result =  f'hc sinh:{tên}\nage{tuoi}
 print(result)
 # căn lề cho chuỗi giữa ^, trái<, phải>
 q = '{:^45}'.format('toi la thanh')

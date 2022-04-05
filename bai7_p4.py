@@ -10,7 +10,7 @@ print(q)
 w = a. title() # viets hoa chữ cái đầu
 print(w)
 z = a.center(30) # căn giữa. có thể thêm kí tự vào
-print(z)
+print(z)`
 # căn trái ljiust và căn phải là rjust
 s = a.encode() # kiểu mã hóa
 print(s)
